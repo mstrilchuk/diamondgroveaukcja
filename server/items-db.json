@@ -1,0 +1,91 @@
+[
+    {
+        "id": "1",
+        "name": "Probably Paris or Milan, 16th century",
+        "description": "The Luck of Workington Hall, an Agate Cup.",
+        "lastBid": 8000.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "An English delftware large oval dish",
+        "description": "Circa 1635-50, Southwark, probably Pickleherring Quay.",
+        "lastBid": 1000.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "An early 18th century German silver-gilt beaker and cover",
+        "description": "Lorenz Biller II, Augsburg, 1710, with later embellishments attributed to the royal goldsmiths, Rundell, Bridge & Rundell of The Golden Salmon, Ludgate Hill, London, early 19th century",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/3.jpg" 
+    },
+    {
+        "id": "4",
+        "name": "A George II silver basket",
+        "description": "Charles Kandler, London, 1734",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/4.jpg" 
+    }, 
+    {
+        "id": "5",
+        "name": "A set of four Italian parcel-gilt and painted console tables",
+        "description": "Rome, circa 1765-75",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/5.jpg" 
+    }, 
+    {
+        "id": "6",
+        "name": "Royal: A matched pair of George III ecuelles and stands",
+        "description": "Thomas Heming, London, 1764, 1770 and 1779",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/6.jpg" 
+    }, 
+    {
+        "id": "7",
+        "name": "A Spanish gilt-bronze mounted white marble and alabaster centrepiece",
+        "description": "by the Real Laboratorio del Buen Retiro, the mounts attributed to Giovanni Battista Ferroni, Madrid, circa 1790",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/7.jpg" 
+    }, 
+    {
+        "id": "8",
+        "name": "A full hull 1:48 scale model of HMS Victory",
+        "description": "a 100 gun first rate three deck ship of the line, English, circa 1800",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/8.jpg" 
+    }, 
+    {
+        "id": "9",
+        "name": "A pearl-set gold and enamel musical domino set",
+        "description": "Bautte & Moynier, Geneva, 1804-1808",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/9.jpg" 
+    }, 
+    {
+        "id": "10",
+        "name": "A very rare Fabergé jewelled platinum and rock crystal ‘Ice’ Red Cross pendant",
+        "description": "workmaster Albert Holmström, after the design by Alma Pihl, St Petersburg, circa 1915",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/10.jpg" 
+    },
+    {
+        "id": "11",
+        "name": "Rolex",
+        "description": "Cosmograph Daytona Reference 116505, an Everose gold automatic chronograph wristwatch, Circa 2021",
+        "lastBid": 500.00,
+        "lastBidUser": null,
+        "imageUrl": "http://localhost:3000/images/11.png" 
+    }
+
+]
