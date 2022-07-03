@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
+
+<title>Diamond Grove Aukcja</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>    
+<script src="js/auction.js"></script>
+</header>
+
+<body ng-app="diamondGrove" ng-controller="mainController as ctrl">
+
+<h1>Diamond Grove Aukcja</h1>
+<p class="login-info">Jesteś zalogowany/-a jako Mariia S (mariia.s@gmail.com)</p> 
+
+<div class='outer-div'>
+
+    <table class="page-frame">
+            <col width="100%">
+        <tbody>
+        <tr>
+            <td class="merchandise-side">
+
+                <table class="merchandise-table" id="merchandise-table">
+                    <colgroup>
+                        <col width="20%"><col width="80%">
+                    </colgroup>
+                    <tbody>
+                        <!-- rows of merchandise -->
+                        <tr ng-repeat="item in inventory">
+                            <td class="merchandise-image">
+                                <img class="merchandise-image" src="{{ item.imageUrl }}" alt="item image">
+                            </td>
+                            <td>
+                                <p class="merchandise-name">{{ item.name }}</p>
+                                <hr class="merchandise-hr">
+                                <p class="merchandise-description">{{ item.description }}</p>
+                                <p class="merchandise-last-bid" ng-if="item.lastBidUser == null">Cena wywoławcza: {{ item.lastBid | currency }}</p>
+                                <p class="merchandise-last-bid" ng-if="item.lastBidUser != null">Najnowsza stawka: {{ item.lastBid | currency }} przez {{ item.lastBidUser }}</p>
+                                <p>Twoja oferta: <input ng-model="newBids[$index]" type="number" length="5" value="newBids[$index]"><a href="#" ng-click="sendBid(item.id, newBids[$index], 'lindam')"><img class="floating-button" src="images/189715.png" alt="bid"></a></p>
+                                <p><img class="update-button" src="images/update.png" button type="button" ng-click="updateNow(item.id, $index)"></button> </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,141 @@
+  a {
+    color: #066FFE;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:disabled {
+    color: grey
+  }
+  
+  body {
+    background: rgb(247,219,159);
+    background: linear-gradient(0deg, rgba(247,219,159,1) 0%, rgba(111,195,196,1) 100%);
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .floating-button {
+    height: 2.5rem;
+    margin-left: 1rem;
+    width: 2.5rem;
+  }
+
+  .update-button {
+    height: 4rem;
+    width: 10rem;
+  }
+  
+  .login-info {
+    color: rgb(147, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .merchandise-description {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .merchandise-hr {
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+  }
+  
+  .merchandise-image {
+    height: 15rem;
+    width: 15rem;
+    vertical-align: top;
+  }
+  
+  .merchandise-last-bid {
+    color: rgb(128, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .merchandise-name {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 90%;
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  
+  .merchandise-side {
+    padding-right: 2rem;
+    vertical-align: top;
+  }
+  
+  .merchandise-table {
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+  
+  .merchandise-table, .merchandise-table td {
+    border-collapse: collapse;
+  }
+  
+  .merchandise-table th, .merchandise-table td {
+    padding-bottom: 1.5rem;
+    padding-left: 5rem;
+    padding-top: 0;
+  }
+  
+  .outer-div {
+    margin: auto;
+    max-width: 95%;
+    text-align: left;
+  }
+  
+  .page-frame {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  
+  @media only screen and (max-width: 900px) {
+  
+    .merchandise-description {
+      font-size: 0.7rem;
+    }
+  
+    .merchandise-image {
+      height: 7.5rem;
+      width: 7.5rem;
+    }
+  
+    .merchandise-name {
+      font-size: 1.7rem;
+    }
+  
+    .merchandise-unit-price {
+      font-size: 1.2rem;
+    }
+  }
+  
